@@ -13,6 +13,8 @@
 		BB1527881BA2A33D00159ABF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB1527871BA2A33D00159ABF /* Images.xcassets */; };
 		BB15278B1BA2A33D00159ABF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB1527891BA2A33D00159ABF /* LaunchScreen.xib */; };
 		BB1527971BA2A33D00159ABF /* VCElasticTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1527961BA2A33D00159ABF /* VCElasticTextFieldTests.swift */; };
+		BB1527A11BA2A6A300159ABF /* ElasticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1527A01BA2A6A300159ABF /* ElasticView.swift */; };
+		BB1527A31BA2AD9300159ABF /* ElasticTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1527A21BA2AD9300159ABF /* ElasticTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		BB1527901BA2A33D00159ABF /* VCElasticTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VCElasticTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB1527951BA2A33D00159ABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB1527961BA2A33D00159ABF /* VCElasticTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCElasticTextFieldTests.swift; sourceTree = "<group>"; };
+		BB1527A01BA2A6A300159ABF /* ElasticView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElasticView.swift; sourceTree = "<group>"; };
+		BB1527A21BA2AD9300159ABF /* ElasticTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElasticTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				BB1527801BA2A33D00159ABF /* AppDelegate.swift */,
 				BB1527821BA2A33D00159ABF /* ViewController.swift */,
+				BB1527A01BA2A6A300159ABF /* ElasticView.swift */,
+				BB1527A21BA2AD9300159ABF /* ElasticTextField.swift */,
 				BB1527841BA2A33D00159ABF /* Main.storyboard */,
 				BB1527871BA2A33D00159ABF /* Images.xcassets */,
 				BB1527891BA2A33D00159ABF /* LaunchScreen.xib */,
@@ -213,7 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB1527831BA2A33D00159ABF /* ViewController.swift in Sources */,
+				BB1527A11BA2A6A300159ABF /* ElasticView.swift in Sources */,
 				BB1527811BA2A33D00159ABF /* AppDelegate.swift in Sources */,
+				BB1527A31BA2AD9300159ABF /* ElasticTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
