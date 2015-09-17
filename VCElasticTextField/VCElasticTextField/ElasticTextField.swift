@@ -22,7 +22,7 @@ class ElasticTextField: UITextField {
         setupView()
     }
     
-    required init(coder aDecoder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setupView()
     }
@@ -40,7 +40,7 @@ class ElasticTextField: UITextField {
         elasticView.userInteractionEnabled = false // 不能触发当前View的Touches事件，而通过传递进去
     }
     
-    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         elasticView.touchesBegan(touches, withEvent: event)
     }
     
