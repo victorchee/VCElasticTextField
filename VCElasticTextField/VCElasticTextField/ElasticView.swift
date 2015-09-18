@@ -54,8 +54,10 @@ class ElasticView: UIView {
         for controlPoint in [topControlPointView, leftControlPointView, bottomControlPointView, rightControlPointView] {
             addSubview(controlPoint)
             controlPoint.frame = CGRect(x: 0.0, y: 0.0, width: 5.0, height: 5.0)
-//            controlPoint.backgroundColor = UIColor.blueColor()
+            controlPoint.backgroundColor = UIColor.blueColor()
         }
+        
+        positionControlPoints()
     }
     
     private func positionControlPoints() {
